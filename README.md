@@ -1,3 +1,4 @@
+
 # Health API – DevOps Project
 
 ## Project Description
@@ -8,7 +9,7 @@ using GitHub Actions CI/CD.
 ## Architecture Overview
 - Node.js + Express – API
 - Docker & Docker Compose – Containerization
-- Ubuntu VPS (DigitalOcean)
+- Ubuntu VPS on DigitalOcean
 - GitHub Actions – CI/CD pipeline
 - SSH + UFW – Server security
 
