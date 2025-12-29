@@ -1,5 +1,5 @@
 
-# Health API – DevOps Project
+# Health API – DevOps SAE Project
 
 ## Project Description
 This project is a minimal REST API that exposes a health-check endpoint.
@@ -9,7 +9,7 @@ using GitHub Actions CI/CD.
 ## Architecture Overview
 - Node.js + Express – API
 - Docker & Docker Compose – Containerization
-- Ubuntu VPS on DigitalOcean
+- Ubuntu VPS on DigitalOcean platfrom
 - GitHub Actions – CI/CD pipeline
 - SSH + UFW – Server security
 
