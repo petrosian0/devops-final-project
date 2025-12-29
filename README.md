@@ -32,7 +32,7 @@ git clone https://github.com/petrosian0/devops-final-project.git
 
 2. Change directory
 ```bash
-cd devops-final-project/health-api
+cd devops-final-project
 ```
 
 3. Start docker
