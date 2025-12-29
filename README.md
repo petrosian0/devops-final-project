@@ -22,6 +22,12 @@ To run this project locally or deploy it, you need:
 - Access to the VPS server with SSH key authentication
 - Basic knowledge of CLI commands
 
+## Demo / test
+Public IP
+```bash
+http://164.92.180.14
+```
+
 ## How to Use the Project
 
 ### Run Locally
