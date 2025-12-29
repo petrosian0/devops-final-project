@@ -1,24 +1,32 @@
-
-# Health API – DevOps SAE Project
+# DevOps Final Project: Health API
 
 ## Project Description
-This project is a minimal REST API that exposes a health-check endpoint.
-It is containerized using Docker and automatically deployed to a VPS
-using GitHub Actions CI/CD.
+This project is a minimal web service (API) that provides a health check endpoint.  
+It returns a JSON response with server status, student name, current server time, and version.  
+The goal is to demonstrate full DevOps workflow: API development, Dockerization, VPS deployment, and CI/CD automation using GitHub Actions.
 
 ## Architecture Overview
-- Node.js + Express – API
-- Docker & Docker Compose – Containerization
-- Ubuntu VPS on DigitalOcean platform
-- GitHub Actions – CI/CD pipeline
-- SSH + UFW – Server security
+- **Node.js + Express**: for the API backend.
+- **Docker & Docker Compose**: containerize the API for reproducible deployment.
+- **Ubuntu VPS (DigitalOcean)**: host the Dockerized application.
+- **UFW firewall**: basic VPS security.
+- **GitHub Actions**: CI/CD pipeline to automatically deploy changes from `main` branch to the VPS.
+- **SSH keys**: secure authentication for automated deployment.
 
 ## Prerequisites
-- Docker & Docker Compose
-- Node.js (for local dev)
-- GitHub account
-- Ubuntu VPS
+To run this project locally or deploy it, you need:
+- Node.js and npm installed (for local development)
+- Docker and Docker Compose installed
+- Git installed
+- GitHub account with repository access
+- Access to the VPS server with SSH key authentication
+- Basic knowledge of CLI commands
 
-## Local Run
+## How to Use the Project
+
+### Run Locally
+1. Clone the repository:  
 ```bash
+git clone https://github.com/<your-username>/devops-final-project.git
+cd devops-final-project/health-api
 docker compose up --build
