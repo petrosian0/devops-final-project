@@ -23,11 +23,11 @@ To run this project locally or deploy it, you need:
 - Basic knowledge of CLI commands
 
 ## Demo / test
-Public IP
+Public IP:
 ```bash
 http://164.92.180.14
 ```
-Expected output
+Expected output:
 ```json
 {
   "status": "healthy",
