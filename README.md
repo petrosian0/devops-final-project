@@ -28,5 +28,11 @@ To run this project locally or deploy it, you need:
 1. Clone the repository:  
 ```bash
 git clone https://github.com/<your-username>/devops-final-project.git
+
+2. Change directory
+```bash
 cd devops-final-project/health-api
+
+3. Start docker
+```bash 
 docker compose up --build
