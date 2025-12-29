@@ -27,7 +27,7 @@ To run this project locally or deploy it, you need:
 ### Run Locally
 1. Clone the repository:  
 ```bash
-git clone https://github.com/<your-username>/devops-final-project.git
+git clone https://github.com/petrosian0/devops-final-project.git
 ```
 
 2. Change directory
