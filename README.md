@@ -27,6 +27,15 @@ Public IP
 ```bash
 http://164.92.180.14
 ```
+Expected output
+```json
+{
+  "status": "healthy",
+  "student_name": "Petar Simic",
+  "server_time": "2025-12-29T01:24:29.570Z",
+  "version": "1.0.0"
+}
+```
 
 ## How to Use the Project
 
