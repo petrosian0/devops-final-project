@@ -197,4 +197,5 @@ Should return JSON:
   "version": "1.0.0"
 }
 ```
+<img width="1917" height="811" alt="image" src="https://github.com/user-attachments/assets/0e70d4db-dada-472c-8cd0-adc22dc73a42" />
 
